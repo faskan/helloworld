@@ -10,8 +10,9 @@ Contract.make {
     response {
         status(200)
         body(
-                id: "someId",
-                name: "someName"
+                id: "faskan",
+                firstName: "Faisal",
+                lastName: "Khan"
         )
     }
 }
