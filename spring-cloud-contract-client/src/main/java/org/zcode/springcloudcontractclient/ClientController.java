@@ -12,8 +12,8 @@ public class ClientController {
 
     private ClientService clientService;
 
-    @GetMapping
+    @GetMapping("/accounts")
     public List<Account> getAllAccounts() {
-        clientService.getAllAccounts();
+        return clientService.getAllAccounts();
     }
 }
